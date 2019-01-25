@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 mmalaguti.github.io/
+web: $(composer config bin-dir)/heroku-php-apache2/
