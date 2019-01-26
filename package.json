@@ -3,6 +3,7 @@
   "name": "startbootstrap-agency",
   "version": "4.0.0-beta",
   "description": "Agency is a one page HTML theme for Bootstrap.",
+  "main": "app.js",
   "keywords": [
     "css",
     "sass",
@@ -15,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
     "email": "feedback@startbootstrap.com"
+  },
+  "scripts": {
+  "start": "node app.js"
   },
   "license": "MIT",
   "author": "Start Bootstrap",
